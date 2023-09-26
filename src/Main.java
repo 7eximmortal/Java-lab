@@ -3,8 +3,10 @@ public class Main {
 	public static void main(String args[]) {
 		System.out.println("Program Started");
 		
-		Cycles exampleCulces = new Cycles();
-		//exampleCulces.culcFor(0, 10);
+		Cycles exCulc = new Cycles();
+		//exCulc.culcFor(0, 10);
+		//exCulc.culcDo(0, 10);
+		//exCulc.culcWhile(0, 10);
 		
 	}
 }
