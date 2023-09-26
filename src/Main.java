@@ -1,12 +1,13 @@
+import java.util.Arrays;
 
 public class Main {
 	public static void main(String args[]) {
 		System.out.println("Program Started");
 		
-		Cycles exCulc = new Cycles();
-		//exCulc.culcFor(0, 10);
-		//exCulc.culcDo(0, 10);
-		//exCulc.culcWhile(0, 10);
+		CyclesStd exCulc = new CyclesStd();
+		
+		ArraysStd exArray = new ArraysStd(new int[5]);
+		System.out.println(Arrays.toString(exArray.nums));
 		
 	}
 }

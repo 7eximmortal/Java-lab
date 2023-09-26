@@ -2,7 +2,7 @@
 // Также существует оператор break, он позволяет выйти из цикла в любой момент.
 // Еще существует оператор continue, позволяет пропустить оставшийся код и перейти к след. итерации цикла.
 
-public class Cycles {
+public class CyclesStd {
 	public void culcFor(int first, int less) {
 		for (int i = first; i < less; i++) {
 			System.out.println("[CULC FOR] Hello number = " + i);
