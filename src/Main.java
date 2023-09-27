@@ -7,7 +7,6 @@ public class Main {
 		CyclesStd exCulc = new CyclesStd();
 		
 		ArraysStd exArray = new ArraysStd(new int[5]);
-		System.out.println(Arrays.toString(exArray.nums));
 		
 	}
 }
