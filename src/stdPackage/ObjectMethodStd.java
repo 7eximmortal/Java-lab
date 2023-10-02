@@ -1,3 +1,4 @@
+package stdPackage;
 
 public class ObjectMethodStd {
 	String name;

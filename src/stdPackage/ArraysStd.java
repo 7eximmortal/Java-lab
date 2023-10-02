@@ -1,3 +1,4 @@
+package stdPackage;
 public class ArraysStd {
 	int[] nums;
 	

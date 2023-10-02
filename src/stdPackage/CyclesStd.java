@@ -1,6 +1,7 @@
 // Класс циклов
 // Также существует оператор break, он позволяет выйти из цикла в любой момент.
 // Еще существует оператор continue, позволяет пропустить оставшийся код и перейти к след. итерации цикла.
+package stdPackage;
 
 public class CyclesStd {
 	public void culcFor(int first, int less) {

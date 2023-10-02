@@ -1,18 +1,12 @@
-import java.util.Arrays;
-
 public class Main {
 	public static void main(String args[]) {
-		System.out.println("Program Started");
+		System.out.println("[IMMORTAL LAB] Program Started");
 		
-		ObjectMethodStd person = new ObjectMethodStd();
-		person.name = "Владик";
-		System.out.println(person.name);
-		changeName(person);
-		System.out.println(person.name);
+		Human chel = new Human("Владик", 12291283);
+		
+		System.out.println(chel.getName());
+		System.out.println(chel.phone.getNumber());
 
 	}
 	
-	public static void changeName(ObjectMethodStd p) {
-		p.name = "Персик";
-	}
 }
